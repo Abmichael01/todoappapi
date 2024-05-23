@@ -33,7 +33,7 @@ ALLOWED_HOSTS = ['*']
 # settings.py
 CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",   # Add your React app's origin
+    "https://todo-app-u.vercel.app/",   # Add your React app's origin
 ]
 
 
