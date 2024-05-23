@@ -31,10 +31,10 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 # settings.py
-CORS_ALLOW_ALL_ORIGINS = True
-# CORS_ALLOWED_ORIGINS = [
-#     "http://localhost:5173",  # Add your React app's origin
-# ]
+CORS_ALLOW_ALL_ORIGINS = False
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",   # Add your React app's origin
+]
 
 
 # Application definition
